@@ -1,0 +1,13 @@
+/node_modules
+/bower_components
+/public/assets
+/dist
+
+npm-debug.log
+.DS_Store
+
+# IntelliJ
+*.iml
+/.idea
+.vscode
+*.log

@@ -1,0 +1,47 @@
+{
+  "name": "react-quick-start",
+  "version": "1.0.0",
+  "description": "React Quick Starter",
+  "main": "./public/js/app.js",
+  "repository": "https://github.com/diegopscode/React-Quick-Start",
+  "author": "Diego Pancera dos Santos",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --open",
+    "dev": "node ./node_modules//webpack/bin/webpack --progress",
+    "prod": "node ./node_modules//webpack/bin/webpack --progress -p",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test:watch": "npm run test -- --watch"
+  },
+  "dependencies": {
+    "axios": "^0.17.0",
+    "lodash": "^4.17.4",
+    "path": "^0.12.7",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-fontawesome": "^1.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-form": "^7.1.1",
+    "redux-promise": "^0.5.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "chai": "^4.1.2",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "mocha": "^4.0.1",
+    "node-sass": "^4.5.3",
+    "react-addons-test-utils": "^15.6.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
+}

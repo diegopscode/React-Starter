@@ -1,0 +1,41 @@
+.form-group  {
+    margin-bottom: 10px;
+
+    label {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        border: 1px solid #ccc;
+        padding: 7px;
+        display: block;
+        width: 100%;
+    }
+
+    &.has-danger {
+        color: #ec3030;
+
+        label {
+            color: #ec3030;
+        }
+
+        input {
+            border-color: #ec3030;
+        }
+    }
+}
+
+.text-help {
+    margin: 5px 0;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    & > * {
+        margin-left: 15px;
+    }
+}

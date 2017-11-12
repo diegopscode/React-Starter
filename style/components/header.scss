@@ -1,0 +1,21 @@
+header {
+    background: $gray-dark;
+    padding: 20px 0;
+
+    nav {
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+
+    ul {
+        text-align: center;
+    }
+    
+    li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 15px;
+    }
+}

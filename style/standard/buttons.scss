@@ -1,0 +1,28 @@
+.btn {
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+
+    font-size: 16px;
+
+    border-radius: 2px;
+    border: 1px solid #161616;
+    background-color: #333;
+    color: #f1f1f1;
+
+    padding: 10px 20px;
+    transition: all .2s;
+
+    &:hover {
+        background-color: #161616;
+    }
+
+    &.btn-danger {
+        border-color: #c72a2a;
+        background-color: #ec3030;
+
+        &:hover {
+            background-color: #c72a2a
+        }
+    }
+}

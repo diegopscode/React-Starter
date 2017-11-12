@@ -1,0 +1,35 @@
+.home-page {
+    padding: 30px 0;
+
+    h3 {
+        text-transform: uppercase;
+        color: #333;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+}
+
+.post-list {
+
+    .post-item {
+        cursor: pointer;
+        padding: 10px;
+
+        border-radius: 3px;
+        border: 1px solid #f1f1f1;
+        color: #333;
+
+        display: block;
+        margin-bottom: 10px;
+
+        transition: all .1s;
+
+        &:hover {
+            background-color: #f1f1f1;
+        }
+    }
+
+    a {
+        color: #333;
+    }
+}
