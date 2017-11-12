@@ -1,9 +1,9 @@
 {
-  "name": "react-quick-start",
+  "name": "react-start",
   "version": "1.0.0",
-  "description": "React Quick Starter",
+  "description": "React Starter",
   "main": "./public/js/app.js",
-  "repository": "https://github.com/diegopscode/React-Quick-Start",
+  "repository": "https://github.com/diegopscode/React-Starter",
   "author": "Diego Pancera dos Santos",
   "license": "MIT",
   "scripts": {
