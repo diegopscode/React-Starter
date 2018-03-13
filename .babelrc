@@ -1,4 +1,3 @@
-// Babel Config
 {
     "presets": [
         "react", "env", "stage-3"
